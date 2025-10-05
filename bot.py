@@ -11,7 +11,7 @@ driver.register_adapter(OnebotAdapter)
 nonebot.load_from_toml("pyproject.toml", encoding="utf-8")
 
 # 在这里加载插件
-# nonebot.load_builtin_plugins("echo")  # 内置插件
+nonebot.load_builtin_plugins("echo")  # 内置插件
 # nonebot.load_plugin("nonebot_plugin_status")  # 第三方插件
 # nonebot.load_plugins("awesome_bot/plugins")  # 本地插件
 
